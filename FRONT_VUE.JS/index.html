@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Faculté des sciences | Antananarivo </title>
+    <meta name="description" content="La Faculté des Sciences d'Antananarivo à Madagascar propose une formation académique de qualité dans les domaines des mathématiques, de l'informatique, de la chimie, des sciences de la vie et de la terre. Notre site vous permettra de découvrir nos programmes, nos enseignants et notre communauté étudiante dynamique. Nous offrons des opportunités de recherche, des projets d'innovation et des programmes de mobilité internationale pour préparer nos étudiants à des carrières prometteuses. Rejoignez-nous pour une expérience éducative enrichissante au cœur de la capitale malagasy.">
+    <meta name="keywords" content="Découvrez la Faculté des Sciences d'Antananarivo à Madagascar, offrant des programmes académiques de qualité dans les domaines des mathématiques, de l'informatique, de la chimie et des sciences de la vie et de la terre. Notre communauté étudiante dynamique bénéficie de nombreuses opportunités de recherche, d'innovation et de mobilité internationale pour se préparer à des carrières prometteuses. Explorez notre site pour en savoir plus sur nos programmes et nos enseignants, et rejoignez-nous pour une expérience éducative enrichissante.">
+  </head>
+  <body>
+
+    <h1 style="display:none">Faculté des sciences Antananarivo Madagascar</h1>
+    <h2 style="display:none">Faculté des sciences Antananarivo Madagascar</h2>
+    <h3 style="display:none">Faculté des sciences Antananarivo Madagascar</h3>
+
+    <div id="app">
+    
+    </div>
+
+    <div id="loading" class="loading-page position-relative d-flex align-items-center justify-content-center" style="height:100vh;">
+      <img src="/logo/logo-science.jpg" alt="" style="height: 170px; width: 170px;">
+
+      <div class="spinner-border text-primary position-absolute" style="height: 200px;width:200px;" role="status">
+        <span class="visually-hidden">sciences...</span>
+      </div>
+
+    </div>
+
+    <script>
+      
+      var intervalId=setInterval(()=>{
+        let app=document.getElementById('app')
+        if(app.children.length){
+          document.getElementById('loading').remove()
+          clearInterval(intervalId);
+        }
+      },500)
+
+
+    </script>
+
+    <script type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "front",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^37.0.1",
+    "@ckeditor/ckeditor5-vue": "^5.0.0",
+    "axios": "^1.2.0",
+    "chart.js": "^4.2.0",
+    "gsap": "^3.11.4",
+    "pinia": "^2.0.26",
+    "primevue": "^3.21.0",
+    "sass": "^1.56.2",
+    "scss": "^0.2.4",
+    "vue": "^3.2.45",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.1.6",
+    "vue3-carousel": "^0.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/test-utils": "^2.2.4",
+    "jsdom": "^20.0.3",
+    "vite": "^3.2.4",
+    "vitest": "^0.25.3"
+  }
+}
