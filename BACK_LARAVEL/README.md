@@ -1,5 +1,35 @@
-<h1>INSTRUCTION</h1>
-<p>
-    A cause d'une dernier retour et l'urgence de modif,
-    dans la table <strong>matieres</strong> le colone coefficient est un credit donc dans la calcul, il faut diviser par 2 pour obtenir le vrais coefficient 
-</p>
+# Laravel University Management System
+
+This is a Laravel-based project for managing student information and grades within a university.
+
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-project.git
+
+# Navigate to the project directory
+cd BACK_LARAVEL
+
+# Install PHP dependencies
+composer install
+
+# Copy the .env.example file to .env
+cp .env.example .env
+
+# Generate the application key
+php artisan key:generate
+
+# Add link to storage in public folder
+php artisan storage:link
+
+# Configure the database in the .env file
+# ...
+
+# Migrate and seed the database
+php artisan migrate --seed
+
+
+# Serve the application
+php artisan serve
